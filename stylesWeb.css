@@ -1,0 +1,104 @@
+
+@media screen and (min-width: 600px) {
+   
+    .main-header{
+        height: 80vh;
+   }
+  
+    header h2{
+        text-align: left; 
+        position: relative;
+        left: 200px;
+        top: 50px;
+        margin: 0;
+    
+    }
+    nav{
+        display: flex;
+        flex-direction: row-reverse
+        ;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 2em;
+        margin: 0;
+        padding-bottom: 20px;
+        position: relative;
+        top: 20px;
+    }
+    h1{
+        max-width: 600px;
+        font-size: 3em;
+    } 
+    .main-icones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+        /* border: 1px solid black;  */
+    } 
+    .icones-icones{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; 
+        width: 100%;
+         /* border: 1px solid red; 
+         */
+    }
+    .main-icones p{
+        font-size: 1em;
+        width: 50%; 
+    }
+    .promotion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .promotion__card{ 
+        margin-right: 20px;
+    }
+   
+
+
+    .contact-container h3{
+        position: relative;
+        border: none;
+    }
+     .contact-container h3::after{
+        content: "";
+       
+        position: absolute;
+        width: 520px;
+        height: 1px;
+        
+        background: #86ddee;
+        bottom: 0;
+        left: 500px;
+    } 
+    .contact-container p{
+        padding: 10px 320px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    form ul{
+        display: flex;
+        flex-direction: row;
+    }
+    footer{
+        height: 200px;
+    }
+    footer h2{
+        position: relative;
+        top: 80px;
+    }
+    footer p{
+        position: relative;
+        top: 100px;
+    }
+  
+}
